@@ -14,6 +14,7 @@
   p.sansserif{
     font-family: Arial, Helvetica, sans-serif;
   }
+
 </style>
   
 </head>
@@ -26,72 +27,41 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
 <h1><strong style="font-size: larger;">Follow-Your-Click:</strong></h1>
 <h1><strong>Open-domain Regional Image Animation via Short Prompts</strong>&nbsp;&nbsp;<small></small></h1>
 
-  <!-- <p id="authors" class="serif">
-    <a href="https://guoyww.github.io/">Yuwei Guo<sup>1</sup></a>
-    <a href="https://ceyuan.me/">Ceyuan Yang<sup>2✝<dag></sup></a>
-    <a href="https://anyirao.com/">Anyi Rao<sup>3</sup></a>
-    <a href="https://anyirao.com/">Zhengyang Liang<sup>2</sup></a>
-    <a href="https://wyhsirius.github.io/">Yaohui Wang<sup>2</sup></a>
-    <a href="http://mmlab.siat.ac.cn/yuqiao/index.html">Yu Qiao<sup>2</sup></a>
-    <a href="https://profiles.stanford.edu/maneesh-agrawala">Maneesh Agrawala<sup>3</sup></a>
-    <a href="http://dahua.site/">Dahua Lin<sup>1,2</sup></a>
-    <a href="https://daibo.info/">Bo Dai<sup>2</sup></a>
-    <br>
-    <a style="font-size: 0.7em"><sup>✝</sup>Corresponding Author.</a>
-    <br>
-    <span style="font-size: 0.8em; margin-top: 0.5em">
-      <a><sup>1</sup>The Chinese University of Hong Kong</a>
-      <a><sup>2</sup>Shanghai AI Laboratory</a>
-      <a><sup>3</sup>Stanford University</a>
-    </span>
-  </p> -->
 
-  <!-- <font size="+1">
-    <p style="text-align: center;" class="serif">
-      <a href="https://arxiv.org/abs/2307.04725" target="_blank" style="font-weight: bold;">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/guoyww/animatediff/" target="_blank" style="font-weight: bold;">[Github]</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#bibtex" style="font-weight: bold;">[BibTeX]</a>
-    </p><br>
-  </font> -->
 
   <font size="+1">
     <p class="serif" style="color: red; font-weight: bold">Click to Play the Follow-Your-Click!</p>
   </font>
 
-  <!-- <div class="row">
-    <div class="col">
-      <video class="clickplay" width="100%">
-        <source src="animations/teaser/case1/case1.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="col">
-      <video class="clickplay" width="100%">
-        <source src="animations/teaser/case2/case2.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="col">
-      <video class="clickplay" width="100%">
-        <source src="animations/teaser/case3/case3.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div> -->
+
   <style>
     .row {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      
     }
+
+    
   
     .col {
       flex: 1;
       text-align: center;
-      margin-bottom: 20px; /* 添加一些下边距，以防止图片和视频之间过于紧凑 */
+     
     }
+
+    .head {
+      flex: 1;
+      text-align: center;
+      
+    }
+
     h3 {
       
-      font-size: 12px; /* 缩小标题的大小 */
+      font-size: 15px; /* 缩小标题的大小 */
+      
     }
-    
+  
   
     img, video {
       width: 100%; /* 将图片和视频的宽度设置为100%，以使它们在同一行上大小相匹配 */
@@ -104,129 +74,170 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   
   <div class="row">
     <div class="col">
-      <h3>The man gritted his teeth.</h3>
+      <h3>User Click</h3>
       <!-- Case 1 Image -->
-      <img class="case-image" src="animations/teaser/case1/case1.png" alt="Case 1 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/1/图片1.png" alt="Case 1 Image" style="width: 100%;">
+      
     </div>
     <div class="col">
       <h3>Output</h3>
       <!-- Case 1 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case1/case1.mp4" type="video/mp4">
+        <source src="animations/teaser/1/1.mp4" type="video/mp4">
       </video>
     </div>
     <div class="col">
-      <h3>The leaves are swaying.</h3>
+      <h3>User Click</h3>
       <!-- Case 2 Image -->
-      <img class="case-image" src="animations/teaser/case2/case2.png" alt="Case 2 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/2/图片6.png" alt="Case 2 Image" style="width: 100%;">
     </div>
     <div class="col">
       <h3>Output</h3>
       <!-- Case 2 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case2/case2.mp4" type="video/mp4">
+        <source src="animations/teaser/2/2.mp4" type="video/mp4">
       </video>
     </div>
     <div class="col">
-      <h3>The puppy wagged its tail.</h3>
+      <h3>User Click</h3>
       <!-- Case 3 Image -->
-      <img class="case-image" src="animations/teaser/case3/case3.png" alt="Case 5 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/3/图片4.png" alt="Case 5 Image" style="width: 100%;">
     </div>
     <div class="col">
       <h3>Output</h3>
       <!-- Case 3 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case3/case3.mp4" type="video/mp4">
+        <source src="animations/teaser/3/3.mp4" type="video/mp4">
       </video>
     </div>
+  </div>
+
+  <div class="row">
+
+    <div class="head" >
+      <h3 >"Tune the head"</h3>
+    </div>
+
+    <div class="head">
+      <h3>"Launch"</h3>
+    </div>
+    
+    <div class="head">
+      <h3>"Smile"</h3>
+    </div>
+
   </div>
   
   <div class="row">
     <div class="col">
-      <h3>The cat is running.</h3>
+      
       <!-- Case 1 Image -->
-      <img class="case-image" src="animations/teaser/case4/case4.png" alt="Case 1 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/5/图片8.png" alt="Case 1 Image" style="width: 100%;">
     </div>
     <div class="col">
-      <h3>Output</h3>
+      
       <!-- Case 1 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case4/case4.mp4" type="video/mp4">
+        <source src="animations/teaser/5/5.mp4" type="video/mp4">
       </video>
     </div>
     <div class="col">
-      <h3>The animal is dancing.</h3>
+      
       <!-- Case 2 Image -->
-      <img class="case-image" src="animations/teaser/case5/case5.png" alt="Case 2 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/6/图片9.png" alt="Case 2 Image" style="width: 100%;">
     </div>
     <div class="col">
-      <h3>Output</h3>
+      
       <!-- Case 2 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case5/case5.mp4" type="video/mp4">
+        <source src="animations/teaser/6/6.mp4" type="video/mp4">
       </video>
     </div>
     <div class="col">
-      <h3>The bird flaps its wings.</h3>
+      
       <!-- Case 3 Image -->
-      <img class="case-image" src="animations/teaser/case6/case6.png" alt="Case 5 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/7/图片7.png" alt="Case 5 Image" style="width: 100%;">
     </div>
     <div class="col">
-      <h3>Output</h3>
+      
       <!-- Case 3 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case6/case6.mp4" type="video/mp4">
+        <source src="animations/teaser/7/7.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
   <div class="row">
+
+    <div class="head">
+      <h3>"Dancing"</h3>
+    </div>
+
+    <div class="head">
+      <h3>"Drive back and forward"</h3>
+    </div>
+    
+    <div class="head">
+      <h3>"Drift"</h3>
+    </div>
+
+  </div>
+
+  <div class="row">
     <div class="col">
-      <h3>The bus is moving.</h3>
+      
       <!-- Case 1 Image -->
-      <img class="case-image" src="animations/teaser/case7/case7.png" alt="Case 1 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/8/图片2.png" alt="Case 1 Image" style="width: 100%;">
     </div>
     <div class="col">
-      <h3>Output</h3>
+      
       <!-- Case 1 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case7/case7.mp4" type="video/mp4">
+        <source src="animations/teaser/8/8.mp4" type="video/mp4">
       </video>
     </div>
     <div class="col">
-      <h3>The car is backing up.</h3>
+      
       <!-- Case 2 Image -->
-      <img class="case-image" src="animations/teaser/case8/case8.png" alt="Case 2 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/cry/图片5.png" alt="Case 2 Image" style="width: 100%;">
     </div>
     <div class="col">
-      <h3>Output</h3>
+      
       <!-- Case 2 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case8/case8.mp4" type="video/mp4">
+        <source src="animations/teaser/cry/OFC_16.mp4" type="video/mp4">
       </video>
     </div>
     <div class="col">
-      <h3>The dog is dancing.</h3>
+      
       <!-- Case 3 Image -->
-      <img class="case-image" src="animations/teaser/case9/case9.png" alt="Case 5 Image" style="width: 100%;">
+      <img class="case-image" src="animations/teaser/storm/图片3.png" alt="Case 5 Image" style="width: 100%;">
     </div>
     <div class="col">
-      <h3>Output</h3>
+      
       <!-- Case 3 Video -->
       <video class="clickplay case-video" width="100%" style="max-width: 100%;">
-        <source src="animations/teaser/case9/case9.mp4" type="video/mp4">
+        <source src="animations/teaser/storm/storm.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
+  <div class="row">
 
-  <!-- <p style="text-align: left; font-size: 18px; margin: 10px;" class="serif">
-    Generated with CivitAI models:
-    <a href="https://civitai.com/models/30240/toonyou">ToonYou</a>
-    <a href="https://civitai.com/models/22922/lyriel">Lyriel</a>
-    <a href="https://civitai.com/models/43331/majicmix-realistic">majicMIX Realistic</a>
-    <a href="https://civitai.com/models/66347/rcnz-cartoon-3d">RCNZ Cartoon 3d</a>
-  </p> -->
+    <div class="head">
+      <h3>"Flap the wings"</h3>
+    </div>
+
+    <div class="head">
+      <h3>"Sad"</h3>
+    </div>
+    
+    <div class="head">
+      <h3>"Storm"</h3>
+    </div>
+
+  </div>
+  
 
 </div>
 
@@ -240,17 +251,17 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   <!-- <img class="summary-img" src="figs/framework.jpg" style="width:100%;"> <br> -->
   <div class="row">
     <!-- First Row -->
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/1_part2.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/2_part2 (1).mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/3_part2 (1).mp4" type="video/mp4">
       </video>
@@ -259,17 +270,17 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   
   <div class="row">
     <!-- Second Row -->
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/4_part2 (1).mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/5_part2 (1).mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/6_part2 (1).mp4" type="video/mp4">
       </video>
@@ -278,17 +289,17 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   
   <div class="row">
     <!-- Third Row -->
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/7_part2.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/8_part2.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <video class="clickplay" width="100%">
         <source src="animations/gallery/9_part2.mp4" type="video/mp4">
       </video>
@@ -316,55 +327,63 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   <!-- <img class="summary-img" src="figs/framework.jpg" style="width:100%;"> <br> -->
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <h3>User Click</h3>
+      <img src="animations/comparison/dog/1710077868670.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>Ours</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputours.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/ours/ours.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Animate-A</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputaa.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_aa/dog_aa.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Dynamic</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputdy.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_dynamicrafter/dog_dynamicrafter.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Genmo</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputgenmo.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_genmo/dog_genmo.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <!-- <h3>User Click</h3> -->
+      <img src="  " style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>Gen-2</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputgen.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_gen/dog_gen.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>I2VGen-XL</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputi2v.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_i2v/dog_i2v.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>PikaLabs</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputpika.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_pika/dog_pika.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>SVD</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/dog/outputsvd.mp4" type="video/mp4">
+        <source src="animations/comparison/dog/dog_svd/dog_svd.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -374,55 +393,63 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
 
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <h3>User Click</h3>
+      <img src="animations/comparison/man/1710077751304.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>Ours</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/ours.mp4" type="video/mp4">
+        <source src="animations/comparison/man/ours/ours.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Animate-A</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_aa.mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_aa/man_aa.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Dynamic</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_dynamicrafter.mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_dynamicrafter/man_dynamicrafter.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Genmo</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_genmo(2).mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_genmo/man_genmo.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <!-- <h3>User Click</h3> -->
+      <img src="  " style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>Gen-2</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_genmo(2).mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_gen/man_gen.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>I2VGen-XL</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_i2v.mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_i2v/man_i2v.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>PikaLabs</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_pika.mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_pika/man_pika.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>SVD</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/comparison/man/man_svd.mp4" type="video/mp4">
+        <source src="animations/comparison/man/man_svd/man_svd.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -441,55 +468,63 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   <!-- <img class="summary-img" src="figs/framework.jpg" style="width:100%;"> <br> -->
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <h3>User Click</h3>
+      <img src="animations/ablation_motion_cry/1710077144819.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_4</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/FPS_4.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/FPS_4/FPS_4.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_8</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/FPS_8.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/FPS_8/FPS_8.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_12</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/FPS_12.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/FPS_12/FPS_12.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_16</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/FPS_16.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/FPS_16/FPS_16.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <!-- <h3>User Click</h3> -->
+      <img src=" " style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_4</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/OFC_4.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/OFC_4/OFC_4.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_8</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/OFC_8.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/OFC_8/OFC_8.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_12</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/OFC_12.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/OFC_12/OFC_12.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_16</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC/OFC_16.mp4" type="video/mp4">
+        <source src="animations/ablation_motion_cry/OFC_16/OFC_16.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -498,55 +533,63 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   <hr style="margin: 30px 0;">
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <h3>User Click</h3>
+      <img src="animations/ablation_motion/1710077417089.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_4</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/FPS_4.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/FPS_4/FPS_4.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_8</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/FPS_8.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/FPS_8/FPS_8.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_12</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/FPS_12.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/OFC_12/OFC_12.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>FPS_16</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/FPS_16.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/FPS_16/FPS_16.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
+      <!-- <h3>User Click</h3> -->
+      <img src="  " style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_4</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/OFC_4.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/OFC_4/OFC_4.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_8</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/OFC_8.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/OFC_8/OFC_8.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_12</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/OFC_12.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/OFC_12/OFC_12.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>OFC_16</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/MSC2/OFC_16.mp4" type="video/mp4">
+        <source src="animations/ablation_motion/OFC_16/OFC_16.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -571,55 +614,63 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   <span style="color: red; font-weight: bold">Click to play the following animations.</span>
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
-      <h3>W/o D+m</h3>
+    <div class="col-gallery" style="width: 20%;">
+      <h3>User Click</h3>
+      <img src="animations/dog_running/图片.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
+      <h3>W/o D+M</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study/wo_d_m.mp4" type="video/mp4">
+        <source src="animations/dog_running/wo_d_m/wo_d_m.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>W/o D</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study/wo_d.mp4" type="video/mp4">
+        <source src="animations/dog_running/wo_d/wo_d.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>W/o M</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study/wo_m2.mp4" type="video/mp4">
+        <source src="animations/dog_running/wo_m2/wo_m2.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Ours</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study/ours.mp4" type="video/mp4">
+        <source src="animations/dog_running/ours/ours.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-gallery" style="width: 25%;">
-      <h3>W/o D+m</h3>
+    <div class="col-gallery" style="width: 20%;">
+      <h3>User Click</h3>
+      <img src="animations/bird_fly/1710076971895.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 20%;">
+      <h3>W/o D+M</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study2/wo_d_m.mp4" type="video/mp4">
+        <source src="animations/bird_fly/wo_d_m/wo_d_m.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>W/o D</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study2/wo_d.mp4" type="video/mp4">
+        <source src="animations/bird_fly/wo_d/wo_d.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>W/o M</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study2/wo_m2.mp4" type="video/mp4">
+        <source src="animations/bird_fly/wo_m2/wo_m2.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="col-gallery" style="width: 25%;">
+    <div class="col-gallery" style="width: 20%;">
       <h3>Ours</h3>
       <video class="clickplay" width="100%">
-        <source src="animations/study2/ours.mp4" type="video/mp4">
+        <source src="animations/bird_fly/ours/ours.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -641,12 +692,39 @@ Open-domainRegionalImage AnimationviaShortPrompts</strong>&nbsp;&nbsp;<small>(EC
   <code> @misc{guo2023animatediff,<br>
   &nbsp;&nbsp;title={AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning},<br>
   &nbsp;&nbsp;author={Yuwei Guo and Ceyuan Yang and Anyi Rao and Zhengyang Liang and Yaohui Wang and Yu Qiao and Maneesh Agrawala and Dahua Lin and Bo Dai},<br>
-  &nbsp;&nbsp;booktitle={arXiv preprint arxiv:2307.04725},<br>
+  &nbsp;&nbsp;booktitle={arXiv preprint arxiv:2307.04720},<br>
   &nbsp;&nbsp;year={2023},<br>
   &nbsp;&nbsp;archivePrefix={arXiv},<br>
   &nbsp;&nbsp;primaryClass={cs.CV}<br>
   } </code> 
 </div> -->
+
+<div class="content">
+  <p style="text-align:left; font-size: 2em; font-weight: bold" class="serif">Limitatiom</p>
+  <p style="font-size: 1.4em" class="serif">
+    Our approach is limited in generating large and complex humanmotions,
+    as shown in the video.This maybe due to the complexity of the action and the rareness of related training samples.
+  </p>
+  <span style="color: red; font-weight: bold">Click to play the following animations.</span>
+
+  <div class="row">
+    <div class="col-gallery" style="width: 50%;">
+      <h3>User Click</h3>
+      <img src="animations/limitation/图片.png" style="width: 100%;">
+    </div>
+    <div class="col-gallery" style="width: 50%;">
+      <h3>Output</h3>
+      <video class="clickplay" width="100%">
+        <source src="animations/limitation/limitation.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div> 
+</div>   
+
+
+
+
+
 
 <div class="content">
   <p class="serif">
